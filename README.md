@@ -18,22 +18,6 @@ This project consists of two main components: a Node.js Express application and 
 
 The project is organized into two main directories:
 
-```
-/parent-directory
-  /node_express_program
-    Dockerfile
-    package.json
-    package-lock.json
-    src/
-    ...
-  /python_program
-    Dockerfile
-    requirements.txt
-    app.py
-    ...
-  docker-compose.yml
-```
-
 - `node_express_program`: Contains the Node.js Express application.
 - `python_program`: Contains the Python Flask application.
 - `docker-compose.yml`: Docker Compose configuration file to manage both applications.
