@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  node_express_program:
+    build:
+      context: ./node_express_program
+    ports:
+      - "3000:3000"
+    depends_on:
+      - python_program
+
+  python_program:
+    build:
+      context: ./python_program
+    ports:
+      - "5000:5000"
